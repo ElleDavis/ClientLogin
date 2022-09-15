@@ -1,0 +1,46 @@
+
+.App {
+  background-color: #85868a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(18px + 2vmin);
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+button{
+  justify-content: space-between;
+}
+h1{font-size: calc(110px + 2vmin);}
+p{font-size: calc(8px + 2vmin);}
+
+
+.icon {
+  height:50px;
+  width:50px;
+  transition:all 1s  cubic-bezier(0.075, 0.82, 0.165, 1);;
+  display:inline-flex;
+  background:50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.card {
+  background-color: rgb(26, 184, 153);
+  background-image: linear-gradient(315deg, #5866d2ac 0%, rgb(161, 22, 91) 100%);
+  
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+      0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 4rem;
+  margin:20px;
+  max-width: 1000px;
+  max-height: 450px;
+}
+
+cardtext{
+font-size: 10px;
+}
